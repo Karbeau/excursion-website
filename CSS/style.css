@@ -1,3 +1,69 @@
-body {
-    background-color: blue;
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
 }
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
+
+/* BASE STYLES */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(16,16,79,1) 100%);
+}
+
+h1 {
+    font-size: 3.125rem;
+}
+
+h2 {
+    font-size: 2.625rem;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 1.3125rem;
+    color: gray;
+}
+
+a {
+    color: aquamarine;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+
+}
+
+/* Main */
+
+header {
+
+}
+
+footer {
+
+}
+
+
+/* ADDITIONAL STYLES */
+
