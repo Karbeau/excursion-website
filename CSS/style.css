@@ -21,11 +21,12 @@
 /* BASE STYLES */
 
 body {
+    padding: 5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     text-align: center;
     background: rgb(0,0,0);
-    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(16,16,79,1) 100%);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, rgba(16,16,79,1) 100%);
 }
 
 h1 {
@@ -50,20 +51,43 @@ header {
     text-align: center;
 }
 
+section {
+    padding: 4rem 0;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
 footer {
-
+    text-align: end;
 }
 
-/* Main */
-
-header {
-
+footer section {
+    text-align: center;
+    padding: 0;
 }
 
-footer {
-
+footer a {
+    color: #447dc2;
+    font-size: 2rem;
 }
 
+/* GIFT page styles */
 
-/* ADDITIONAL STYLES */
+.bottomButton button {
+    padding: 1rem;
+    background: rgb(6, 78, 195);
+    color: white;
+    transition: 0.5s;
+    text-align: center;
+    border-radius: 0.25rem;
+    border: 0;
+}
 
+.bottomButton button:hover {
+    background: rgb(0, 61, 158);
+    box-shadow: 5;
+    cursor: pointer;
+}
